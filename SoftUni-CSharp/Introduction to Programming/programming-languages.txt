@@ -1,0 +1,27 @@
+﻿1. Java
+2. C++
+3. Delphi
+4. PHP
+5. Javascript
+
+Similar to C#
+1. Java
+	- Garbage Collection (Both C# and Java have built-in garbage collection. What does this mean? Forgetaboutit! At least forget about calling delete. Because if you don't forget, the compiler will remind you! ) 
+	
+	- Both C# and Java Are "Pure" Object-Oriented Languages (Any class in either language implicitly (or explicitly) subclasses an object. This is a very nice idea, because it provides a default base class for any user-defined or built-in class. )
+	
+	- Single Inheritancev(C# and Java allow only single inheritance. What's up with that? Actually, it's all good—any class is allowed to implement as many interfaces as it wants in both languages. What's an interface? It's like a class—it has a set of methods that can be called on any class instance that implements it—but it supplies no data.)
+	
+	- Built-in Thread and Synchronization Support (Both C# and Java, however, both have built-in support for this functionality in their language specifications. This is important because it allows a developer to create multi-threaded applications that are immediately portable. )
+	
+	- Formal Exception Handling (Formal exception handling in programming languages generally supplies a developer with program flow control during exceptional runtime conditions.)
+2. C++
+
+A bit similar:
+- Delphi
+
+Different from C#:
+- PHP
+- Javascript
+
+beBoss™
