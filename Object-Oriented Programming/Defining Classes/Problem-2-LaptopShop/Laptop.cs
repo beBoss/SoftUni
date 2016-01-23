@@ -20,8 +20,6 @@
 
         private Battery battery;
 
-        private Battery batteryLife;
-
         private decimal price;
 
         public Laptop(string model, decimal price)
@@ -177,22 +175,22 @@
         {
             if (this.manufacturer == null)
             {
-                string laptop = "model: " + this.model + "\n";
-                laptop += "price: " + this.price + " lv. \n";
+                string laptop = "model: " + this.Model + "\n";
+                laptop += "price: " + this.Price + " lv. \n";
 
                 return laptop;
             }
             else
             {
-                string laptop = "model: " + this.model + "\n";
-                laptop += "manufacturer: " + this.manufacturer + "\n";
-                laptop += "processor: " + this.processor + "\n"; ;
+                string laptop = "model: " + this.Model + "\n";
+                laptop += "manufacturer: " + this.Manufacturer + "\n";
+                laptop += "processor: " + this.Processor + "\n"; ;
                 laptop += "RAM: " + this.Ram + " GB \n";
-                laptop += "graphics card: " + this.graphicsCard + "\n";
+                laptop += "graphics card: " + this.GraphicsCard + "\n";
                 laptop += "HDD: " + this.Hdd + " GB SSD \n";
-                laptop += "screen: " + this.screen + "\n";
-                laptop += "battery: " + this.battery + "\n";
-                laptop += "price: " + this.price + " lv. \n";
+                laptop += "screen: " + this.Screen + "\n";
+                laptop += "battery: " + this.Battery + "\n";
+                laptop += "price: " + this.Price + " lv. \n";
 
                 return laptop;
             }

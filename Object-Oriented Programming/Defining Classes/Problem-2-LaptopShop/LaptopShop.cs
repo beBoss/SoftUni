@@ -6,7 +6,7 @@
     {
         public static void Main()
         {
-            Laptop beBossLaptop = new Laptop("Ideapad Y510P", 2253.20M);
+            Laptop beBossLaptop = new Laptop("Ideapad", 2253.20M);
             Laptop beBossNewLaptop = new Laptop(
                 "Ideapad Y510P", 
                 "Lenovo",
