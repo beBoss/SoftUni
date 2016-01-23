@@ -1,5 +1,7 @@
 ﻿namespace Problem_1_Persons
 {
+    using System;
+
     public class Persons
     {
         public static void Main()
@@ -8,9 +10,9 @@
             Person gosho = new Person("gosho", 100, "gosho@gosho.com");
             Person ivan = new Person("ivan", 34, "ivan@ivan.com");
 
-            pesho.ToString();
-            gosho.ToString();
-            ivan.ToString();
+            Console.WriteLine(pesho.ToString());
+            Console.WriteLine(gosho.ToString());
+            Console.WriteLine(ivan.ToString());
         }
     }
 }

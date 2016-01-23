@@ -73,9 +73,9 @@
             }
         }
 
-        public void ToString()
+        public override string ToString()
         {
-            Console.WriteLine("Name: {0}, Age: {1}, Email: {2}", 
+            return string.Format("Name: {0}, Age: {1}, Email: {2}", 
                 this.name, this.age, this.email);
         }
     }
