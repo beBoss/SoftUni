@@ -42,9 +42,9 @@
 
             set
             {
-                if (value < 0 || value > 6)
+                if (value < 2 || value > 6)
                 {
-                    throw new ArgumentOutOfRangeException("Average grade cannot be negative!");
+                    throw new ArgumentOutOfRangeException("Average grade must be between 2 and 6!");
                 }
 
                 this.averageGrade = value;
